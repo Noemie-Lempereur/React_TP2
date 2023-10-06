@@ -9,7 +9,7 @@ function App() {
   const [temperature, setTemperature] = React.useState("");
   const [condition, setCondition] = React.useState("");
   const [erreur, setErreur] = React.useState(null);
-  const [loading, setLoading] = React.useState(false);
+  const [loading, setLoading] = React.useState(true);
   const [villeEcrite, setVilleEcrite] = React.useState('');
 
   React.useEffect(() => {
